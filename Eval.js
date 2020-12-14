@@ -15,7 +15,7 @@
 
     // Your code here...
 $(document).ready(function() {
-$('body').prepend('<input type="一键好评" value="button" id="button">');
+$('body').prepend('<input type="button" value="一键好评" id="button">');
 $("#button").on("click", function(){
   Object.keys(values).forEach(function(key){
     $("#" + key).val(values[key]);
