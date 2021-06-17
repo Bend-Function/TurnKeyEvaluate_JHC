@@ -4,6 +4,7 @@
 // @grant       GM_addStyle
 
 // @match        https://xk.jhc.cn/*
+// @match        https://webvpn.jhc.cn/https/*
 // @grant        none
 // ==/UserScript==
 /*- The @grant directive is needed to work around a design change
